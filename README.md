@@ -14,7 +14,7 @@
 ## :hourglass_flowing_sand: Design Pattern Index
 |Index|        Name       |Clear|Index| Name|Clear|
 |:---:|:-----------------:|:---:|:--:|:-----------------:|:---:|
-|  1  | `Strategy Pattern`| :x: | 8|  `Facade Pattern` | :x: |
+|  1  | `Strategy Pattern`| :heavy_check_mark: | 8|  `Facade Pattern` | :x: |
 |  2  | `Observer Pattern`| :x: | 9| `Template Pattern`| :x: |
 |  3  |`Decorator Pattern`| :x: |10| `Iterator Pattern`| :x: |
 |  4  | `Factory Pattern` | :x: |11|`Composite Pattern`| :x: |
