@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Fly/FlyNoWay.cpp"
-#include "Quack/Quack.cpp"
+#include "../Behavior/Fly/FlyNoWay.cpp"
+#include "../Behavior/Quack/Quack.cpp"
 #include "Duck.cpp"
 
 using namespace std;
@@ -13,6 +13,6 @@ public:
 	}
 
 	void display() {
-		cout << "Mallard Duck입니다.\n";
+		cout << "I'm Mallard Duck.\n";
 	}
 };

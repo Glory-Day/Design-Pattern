@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Behavior/FlyBehavior.cpp"
-#include "Behavior/QuackBehavior.cpp"
+#include "../Behavior/FlyBehavior.cpp"
+#include "../Behavior/QuackBehavior.cpp"
 
 using namespace std;
 
@@ -24,7 +24,7 @@ public:
 };
 
 void Duck::swim() {
-	cout << "수영 수영 수영\n";
+	cout << "I Can Swim.\n";
 }
 
 void Duck::performFly() {
