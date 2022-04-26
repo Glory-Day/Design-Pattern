@@ -1,11 +1,11 @@
 using System;
 
-using FlyBehavior = Behavior.FlyBehavior;
+using IFlyBehavior = Behavior.IFlyBehavior;
 
 namespace Behavior.Fly 
 {
-    public class FlyNoWay : FlyBehavior 
+    public class FlyNoWay : IFlyBehavior 
     {
-        public void fly() => Console.WriteLine("I Can't Fly.");
+        public void OnFly() => Console.WriteLine("I Can't Fly.");
     }
 }

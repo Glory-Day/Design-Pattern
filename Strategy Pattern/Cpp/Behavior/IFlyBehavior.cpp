@@ -2,7 +2,7 @@
 
 #define interface class
 
-interface FlyBehavior {
+interface IFlyBehavior {
 public:
 	virtual void fly() = 0;
 };

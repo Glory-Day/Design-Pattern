@@ -1,26 +1,26 @@
 using System;
 
-using FlyBehavior = Behavior.FlyBehavior;
-using QuackBehavior = Behavior.QuackBehavior;
+using IFlyBehavior = Behavior.IFlyBehavior;
+using IQuackBehavior = Behavior.IQuackBehavior;
 
 namespace Duck 
 {
     public abstract class Duck 
     {
-        protected FlyBehavior flyBehavior; 
-        protected QuackBehavior quackBehavior;
+        protected IFlyBehavior flyBehavior; 
+        protected IQuackBehavior quackBehavior;
 
-        public Duck(FlyBehavior fb, QuackBehavior qb) 
+        public Duck(IFlyBehavior fb, IQuackBehavior qb) 
         {
             flyBehavior = fb;
             quackBehavior = qb;
         }
 
-        public abstract void display();
+        public abstract void OnDisplay();
 
-        public void swim() => Console.WriteLine("I Can Swim.");
+        public void Swim() => Console.WriteLine("I Can Swim.");
         
-        public void performFly() => flyBehavior.fly();
-        public void performQuack() => quackBehavior.quack();
+        public void PerformFly() => flyBehavior.OnFly();
+        public void PerformQuack() => quackBehavior.OnQuack();
     }
 }

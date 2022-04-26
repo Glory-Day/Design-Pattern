@@ -1,11 +1,11 @@
 using System;
 
-using QuackBehavior = Behavior.QuackBehavior;
+using IQuackBehavior = Behavior.IQuackBehavior;
 
 namespace Behavior.Quack 
 {
-    public class Squeak : QuackBehavior 
+    public class Squeak : IQuackBehavior 
     {
-        public void quack() => Console.WriteLine("I Can Squeak.");
+        public void OnQuack() => Console.WriteLine("I Can Squeak.");
     }
 }

@@ -2,7 +2,7 @@
 
 #define interface class
 
-interface QuackBehavior {
+interface IQuackBehavior {
 public:
 	virtual void quack() = 0;
 };

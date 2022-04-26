@@ -13,7 +13,7 @@ class CurrentConditionsDisplay : public IObserver, IDisplayElement {
 public:
 	CurrentConditionsDisplay(WeatherData* weatherData) {
 		this->weatherData = weatherData;
-		weatherData->registerObserver(this);
+		this->weatherData->registerObserver(this);
 	}
 
 	void update(float temperature, float humidity, float pressure) {

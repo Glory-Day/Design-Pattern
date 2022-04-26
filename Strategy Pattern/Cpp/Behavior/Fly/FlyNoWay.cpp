@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../FlyBehavior.cpp"
+#include "../IFlyBehavior.cpp"
 
 using namespace std;
 
-class FlyNoWay : public FlyBehavior {
+class FlyNoWay : public IFlyBehavior {
 public:
 	void fly() {
 		cout << "I Can't Fly.\n";

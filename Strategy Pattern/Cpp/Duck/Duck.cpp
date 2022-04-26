@@ -1,13 +1,13 @@
 #include <iostream>
-#include "../Behavior/FlyBehavior.cpp"
-#include "../Behavior/QuackBehavior.cpp"
+#include "../Behavior/IFlyBehavior.cpp"
+#include "../Behavior/IQuackBehavior.cpp"
 
 using namespace std;
 
 class Duck {
 protected:
-	FlyBehavior* flyBehavior;
-	QuackBehavior* quackBehavior;
+	IFlyBehavior* flyBehavior;
+	IQuackBehavior* quackBehavior;
 
 public:
 	Duck() { }
@@ -19,8 +19,8 @@ public:
 	void performFly();
 	void performQuack();
 
-	void setFlyBehavior(FlyBehavior* fb);
-	void setQuackBehavior(QuackBehavior* qb);
+	void setFlyBehavior(IFlyBehavior* fb);
+	void setQuackBehavior(IQuackBehavior* qb);
 };
 
 void Duck::swim() {
@@ -35,10 +35,10 @@ void Duck::performQuack() {
 	quackBehavior->quack();
 }
 
-void Duck::setFlyBehavior(FlyBehavior* fb) {
+void Duck::setFlyBehavior(IFlyBehavior* fb) {
 	flyBehavior = fb;
 }
 
-void Duck::setQuackBehavior(QuackBehavior* qb) {
+void Duck::setQuackBehavior(IQuackBehavior* qb) {
 	quackBehavior = qb;
 }

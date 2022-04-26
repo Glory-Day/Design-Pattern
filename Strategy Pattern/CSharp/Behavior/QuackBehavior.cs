@@ -1,7 +1,7 @@
 namespace Behavior 
 {
-    public interface QuackBehavior 
+    public interface IQuackBehavior 
     {
-        void quack();
+        void OnQuack();
     }
 }

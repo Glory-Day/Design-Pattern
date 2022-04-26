@@ -9,7 +9,7 @@ namespace Duck
         public MallardDuck() : 
             base(new Behavior.Fly.FlyWithWings(), new Behavior.Quack.Quack()) { }
 
-        public override void display() 
+        public override void OnDisplay() 
         {
             Console.WriteLine("I'm Mallard Duck.");
         }

@@ -1,9 +1,9 @@
 #include <iostream>
-#include "../QuackBehavior.cpp"
+#include "../IQuackBehavior.cpp"
 
 using namespace std;
 
-class Squeak : public QuackBehavior {
+class Squeak : public IQuackBehavior {
 public:
 	void quack() {
 		cout << "I Can Squeak.\n";

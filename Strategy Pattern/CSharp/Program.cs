@@ -6,11 +6,11 @@ public class Program {
     public static void Main(string[] args) {
         Duck.Duck mallardDuck = new Duck.MallardDuck();
 
-        mallardDuck.display();
+        mallardDuck.OnDisplay();
 
-        mallardDuck.swim();
+        mallardDuck.Swim();
 
-        mallardDuck.performFly();
-        mallardDuck.performQuack();
+        mallardDuck.PerformFly();
+        mallardDuck.PerformQuack();
     }
 }

@@ -1,7 +1,7 @@
 namespace Behavior 
 {
-    public interface FlyBehavior 
+    public interface IFlyBehavior 
     {
-        void fly();
+        void OnFly();
     }
 }
