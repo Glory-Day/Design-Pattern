@@ -1,2 +1,7 @@
-# Ignore Debug Folder
+# Ignore Debug Folder.
 Debug/
+
+# Ignore CSharp API.
+**/CSharp/bin/
+**/CSharp/obj/
+**/CSharp/*.csproj
