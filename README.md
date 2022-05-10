@@ -12,4 +12,8 @@
 </p>
 
 # Wiki
-[Home](https://github.com/Glory-Day/DesignPattern/wiki)
+### Home
++ [Home](https://github.com/Glory-Day/DesignPattern/wiki)
+
+### Pattens
++ [Strategy Pattern](https://github.com/Glory-Day/DesignPattern/wiki/Strategy-Pattern)
