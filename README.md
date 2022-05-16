@@ -14,10 +14,3 @@
 # Wiki
 ### Home
 + [Home](https://github.com/Glory-Day/DesignPattern/wiki)
-
-### SOLID
-+ [Single Responsibility Principal(SRP)](https://github.com/Glory-Day/DesignPattern/wiki/%EB%8B%A8%EC%9D%BC-%EC%B1%85%EC%9E%84-%EC%9B%90%EC%B9%99(SRP))
-+ [Open-Closed Principal(OCP)](https://github.com/Glory-Day/DesignPattern/wiki/%EC%97%B4%EB%A6%BC-%EB%8B%AB%ED%9E%98-%EC%9B%90%EC%B9%99(OCP))
-
-### Patten
-+ [Strategy Pattern](https://github.com/Glory-Day/DesignPattern/wiki/Strategy-Pattern)
