@@ -1,6 +1,9 @@
 # Ignore Debug Folder.
 Debug/
 
+# Ignore visual studio code workspace file
+/Patterns/workspace.code-workspace
+
 # Ignore CSharp API.
 **/CSharp/bin/
 **/CSharp/obj/
